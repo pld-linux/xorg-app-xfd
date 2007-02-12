@@ -1,5 +1,5 @@
 Summary:	xfd application
-Summary(pl):	Aplikacja xfd
+Summary(pl.UTF-8):   Aplikacja xfd
 Name:		xorg-app-xfd
 Version:	1.0.1
 Release:	1
@@ -21,7 +21,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 xfd application.
 
-%description -l pl
+%description -l pl.UTF-8
 Aplikacja xfd.
 
 %prep
