@@ -1,5 +1,5 @@
 Summary:	xfd application
-Summary(pl.UTF-8):   Aplikacja xfd
+Summary(pl.UTF-8):	Aplikacja xfd
 Name:		xorg-app-xfd
 Version:	1.0.1
 Release:	1
