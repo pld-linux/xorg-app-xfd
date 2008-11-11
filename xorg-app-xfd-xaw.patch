@@ -1,0 +1,19 @@
+commit ac2f229757ee60eedeb0aeb0d3ed858cf26dfd07
+Author: James Cloos <cloos@jhcloos.com>
+Date:   Wed Aug 20 10:32:51 2008 -0400
+
+    xaw8 is gone, use xaw7
+
+diff --git a/configure.ac b/configure.ac
+index d695a93..e80b51f 100644
+--- a/configure.ac
++++ b/configure.ac
+@@ -33,7 +33,7 @@ AM_PROG_CC_C_O
+ AC_PROG_INSTALL
+ 
+ # Checks for pkg-config packages
+-XAW_CHECK_XPRINT_SUPPORT(XAW)
++PKG_CHECK_MODULES(XAW, xaw7)
+ 
+ PKG_CHECK_MODULES(ADDITIONAL, freetype2 fontconfig xft)
+ 
