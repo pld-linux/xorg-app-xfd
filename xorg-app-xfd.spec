@@ -2,11 +2,12 @@ Summary:	xfd application
 Summary(pl.UTF-8):	Aplikacja xfd
 Name:		xorg-app-xfd
 Version:	1.0.1
-Release:	3
+Release:	4
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xfd-%{version}.tar.bz2
 # Source0-md5:	c72abd90f50ef459bc14b39ec9fcc7f8
+Patch0:		%{name}-xaw.patch
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -26,6 +27,7 @@ Aplikacja xfd.
 
 %prep
 %setup -q -n xfd-%{version}
+%patch0 -p1
 
 %build
 %{__aclocal}
