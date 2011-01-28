@@ -12,6 +12,7 @@ BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
 BuildRequires:	fontconfig-devel >= 2.0
 BuildRequires:	freetype-devel >= 2.0
+BuildRequires:	gettext-devel
 BuildRequires:	pkgconfig >= 1:0.19
 BuildRequires:	xorg-lib-libXaw-devel
 BuildRequires:	xorg-lib-libXft-devel
