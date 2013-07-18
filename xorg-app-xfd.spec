@@ -1,12 +1,12 @@
 Summary:	xfd application to display all characters in a font
 Summary(pl.UTF-8):	Aplikacja xfd, wyświetlająca wszystkie znaki z fontu
 Name:		xorg-app-xfd
-Version:	1.1.1
+Version:	1.1.2
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xfd-%{version}.tar.bz2
-# Source0-md5:	b3893e03a5288927781acd5d3c65ba19
+# Source0-md5:	f19de745d181f5547ed59d6d9ed7a588
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
@@ -19,6 +19,7 @@ BuildRequires:	xorg-lib-libXft-devel
 BuildRequires:	xorg-lib-libXmu-devel
 BuildRequires:	xorg-lib-libXrender-devel
 BuildRequires:	xorg-lib-libXt-devel >= 1.0.0
+BuildRequires:	xorg-proto-xproto-devel >= 7.0.17
 BuildRequires:	xorg-util-util-macros >= 1.8
 Requires:	xorg-lib-libXt >= 1.0.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
