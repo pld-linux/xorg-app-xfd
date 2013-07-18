@@ -58,4 +58,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc COPYING ChangeLog README
 %attr(755,root,root) %{_bindir}/xfd
 %{_datadir}/X11/app-defaults/Xfd
-%{_mandir}/man1/xfd.1x*
+%{_mandir}/man1/xfd.1*
