@@ -2,7 +2,7 @@ Summary:	xfd application to display all characters in a font
 Summary(pl.UTF-8):	Aplikacja xfd, wyświetlająca wszystkie znaki z fontu
 Name:		xorg-app-xfd
 Version:	1.1.2
-Release:	1
+Release:	2
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xfd-%{version}.tar.bz2
